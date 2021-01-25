@@ -11,3 +11,5 @@ spring:
     schemas: sample_flyway
     user: postgres
     password: pass@123
+    create-schemas: false
+    init-sqls: CREATE SCHEMA IF NOT EXISTS sample_flyway
